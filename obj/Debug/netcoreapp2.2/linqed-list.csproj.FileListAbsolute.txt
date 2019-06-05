@@ -1,0 +1,11 @@
+C:\Users\Meag\workspace\csharp\exercises\linq\linqed-list\bin\Debug\netcoreapp2.2\linqed-list.deps.json
+C:\Users\Meag\workspace\csharp\exercises\linq\linqed-list\bin\Debug\netcoreapp2.2\linqed-list.runtimeconfig.json
+C:\Users\Meag\workspace\csharp\exercises\linq\linqed-list\bin\Debug\netcoreapp2.2\linqed-list.runtimeconfig.dev.json
+C:\Users\Meag\workspace\csharp\exercises\linq\linqed-list\bin\Debug\netcoreapp2.2\linqed-list.dll
+C:\Users\Meag\workspace\csharp\exercises\linq\linqed-list\bin\Debug\netcoreapp2.2\linqed-list.pdb
+C:\Users\Meag\workspace\csharp\exercises\linq\linqed-list\obj\Debug\netcoreapp2.2\linqed-list.csprojAssemblyReference.cache
+C:\Users\Meag\workspace\csharp\exercises\linq\linqed-list\obj\Debug\netcoreapp2.2\linqed-list.csproj.CoreCompileInputs.cache
+C:\Users\Meag\workspace\csharp\exercises\linq\linqed-list\obj\Debug\netcoreapp2.2\linqed-list.AssemblyInfoInputs.cache
+C:\Users\Meag\workspace\csharp\exercises\linq\linqed-list\obj\Debug\netcoreapp2.2\linqed-list.AssemblyInfo.cs
+C:\Users\Meag\workspace\csharp\exercises\linq\linqed-list\obj\Debug\netcoreapp2.2\linqed-list.dll
+C:\Users\Meag\workspace\csharp\exercises\linq\linqed-list\obj\Debug\netcoreapp2.2\linqed-list.pdb
