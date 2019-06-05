@@ -17,8 +17,6 @@ namespace linqed_list
 
                 foreach (string L in LFruits) {
                     Console.WriteLine($"{L}");
-
-                    
                 }
             // Which of the following numbers are multiples of 4 or 6
             // List<int> numbers = new List<int>()
