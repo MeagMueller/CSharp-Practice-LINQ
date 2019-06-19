@@ -8,6 +8,9 @@ namespace linqed_list
     {
         static void Main(string[] args)
         {
+
+            // ***Restriction/Filtering Operations***-----------------------------------------------------------------
+
             // Find the words in the collection that start with the letter 'L'
             List<string> fruits = new List<string>() { "Lemon", "Apple", "Orange", "Lime", "Watermelon", "Loganberry" };
 
@@ -28,6 +31,8 @@ namespace linqed_list
                 };
 
             IEnumerable<int> fourSixMultiples = numbers.Where(n => (n%4 == 0 || n%6 == 0));
+
+            // ***Ordering Operations***-----------------------------------------------------------------------------
 
             // Order these student names alphabetically, in descending order (Z to A)
             List<string> names = new List<string>()
@@ -64,7 +69,9 @@ namespace linqed_list
                     Console.WriteLine($"{number}");
                 }
 
+            // ***Aggregate Operations***--------------------------------------------------------------------------
 
+            
         }
     }
 }
