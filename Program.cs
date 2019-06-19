@@ -69,9 +69,39 @@ namespace linqed_list
                     Console.WriteLine($"{number}");
                 }
 
+                Console.WriteLine();
+
             // ***Aggregate Operations***--------------------------------------------------------------------------
 
-            
+            // Output how many numbers are in this list
+            List<int> numbers3 = new List<int>()
+            {
+                15, 8, 21, 24, 32, 13, 30, 12, 7, 54, 48, 4, 49, 96
+            };
+
+            Console.WriteLine($"Total: {numbers3.Sum()}");
+
+            Console.WriteLine();
+
+            // How much money have we made?
+            List<double> purchases = new List<double>()
+            {
+                2340.29, 745.31, 21.76, 34.03, 4786.45, 879.45, 9442.85, 2454.63, 45.65
+            };
+
+            Console.WriteLine($"Total Purchases: ${purchases.Sum()}");
+
+            Console.WriteLine();
+
+            // What is our most expensive product?
+            List<double> prices = new List<double>()
+            {
+                879.45, 9442.85, 2454.63, 45.65, 2340.29, 34.03, 4786.45, 745.31, 21.76
+            };
+
+            Console.WriteLine($"Most Expensive Product: ${prices.Max()}");
+
+            Console.WriteLine();
         }
     }
 }
