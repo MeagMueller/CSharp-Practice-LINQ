@@ -102,6 +102,36 @@ namespace linqed_list
             Console.WriteLine($"Most Expensive Product: ${prices.Max()}");
 
             Console.WriteLine();
+
+            // ***Partitioning Operations***---------------------------------------------------------
+
+                        /*
+                Store each number in the following List until a perfect square
+                is detected.
+
+                Ref: https://msdn.microsoft.com/en-us/library/system.math.sqrt(v=vs.110).aspx
+            */
+            List<int> wheresSquaredo = new List<int>()
+            {
+                66, 12, 8, 27, 82, 34, 7, 50, 19, 46, 81, 23, 30, 4, 68, 14
+            };
+
+            List<int> manIHateMath = new List<int>();
+
+            foreach(int num in wheresSquaredo) {
+                double runTheNumber = Math.Sqrt(num);
+                bool isItSquared = runTheNumber % 1 == 0;
+                if (isItSquared == false) 
+                {
+                    manIHateMath.Add(num);
+                }
+                else 
+                {
+                    Console.WriteLine($"{num}");
+                }
+            }
+            
+            Console.WriteLine();
         }
     }
 }
